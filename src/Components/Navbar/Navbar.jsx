@@ -1,6 +1,5 @@
 import React from 'react';
 import './Navbar.css';
-import { FaTelegram } from "react-icons/fa6";
 
 const Navbar = () => {
   return (
