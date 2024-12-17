@@ -29,7 +29,7 @@ const PixelCraft = () => {
             <p>Проектирование ⠀ Дизайн Менеджмент⠀ Вёрстка <br></br>  Тестирование⠀ Бизнес-аналитика ⠀ Креатив</p>
             </div>
             </div>
-       <img src='First-section.PNG' />
+       <img src='First-section.png' />
         </section>
         <section className='second-section' id='about'>
         <h1 className='second-main'>Сколько стоит проект?</h1>
@@ -246,7 +246,7 @@ const PixelCraft = () => {
                 <div className='portfolio-eleventh'>
                     
                     <div>
-                    <img className='eleventh-section-portfolio' src='eleventh-section-portfolio2.png' />
+                    <img className='eleventh-section-portfolio' src='eleventh-section-portfolio2.PNG' />
                     </div>
                     <div>
                     <h2>Мухаммед Абдиев</h2>
