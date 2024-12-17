@@ -1,0 +1,41 @@
+.eleventh-section-portfolio {
+    height: 450px;
+    margin-top: -140px;
+    margin-left: -130px;
+}
+section.eleventh-section {
+    background-color: #222828;
+    color: #ffffff;
+    height: 1100px;
+}
+section.eleventh-section p {
+    font-size: 15px;
+
+}
+section.eleventh-section h1 {
+    display: flex;
+    justify-content: center;
+    font-size: 45px;
+    padding-top: 50px;
+}
+.eleventh-section-photo {
+    height: 550px;
+    margin-left: 150px;
+    
+}
+.container-eleventh {
+    display: flex;
+    justify-content: space-around;
+}
+.portfolio-eleventh {
+    display: flex;
+    width: 100%;
+    
+}
+.eleventh-section--first-icons {
+    margin-left: -70px;
+    margin-top: -100px;
+}
+section.eleventh-section h2,h3 {
+    color: #00D1B4;
+}

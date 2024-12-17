@@ -1,0 +1,62 @@
+section.forteen-section h1 {
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    margin-top: 300px;
+    font-size: 40px;
+}
+.forteen-section button {
+    border: 1px solid;
+      border-radius: 50px;
+      border-color: #022427;
+      color: #ffffff;
+      background-color: #05565d;
+    display: flex;
+    justify-content: center;
+    height: 55px;
+    width: 250px;
+    margin-left: 540px;
+      margin-top: 10px;
+  font-size: 20px;
+  padding-top: 13px;
+  text-decoration: none;
+}
+.forteen-section button:hover {
+    border-color: #022427;
+      color: #022427;
+      background-color: #ffffff;
+      
+}
+
+
+
+
+
+
+
+footer {
+    display: flex;
+    justify-content: center;
+    color: #ffffff;
+    background-color: #222828;
+    height: 200px;
+}
+footer h1 {
+    margin-left: 00px;
+    padding-top: 50px;
+}
+footer p {
+  font-size: 24px;
+  margin-left: 300px;
+  padding-top: 55px;
+  color: #00D1B4;
+}
+.footer-insta, .footer-telega {
+  color: #00D1B4;
+  margin-left: 30px;
+  margin-top: 41px;
+  font-size: 30px;
+}
+.footer-insta:hover, .footer-telega:hover {
+  color: #ffffff;
+}

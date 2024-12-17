@@ -1,0 +1,87 @@
+html {
+    scroll-behavior: smooth;
+  }
+  nav {
+      position: fixed;
+      z-index: 1000;
+      background-color: black;
+      width: 100%;
+  }
+  header button {
+    height: 45px;
+    width: 160px;
+      background-color: #00D1B4;
+      color: #ffffff;
+      border-color: #00D1B4;
+    border-radius: 40px;
+    border: 1px;
+    font-size: 14px;
+    cursor: pointer;
+    margin-top: 34px;
+    margin-left: 150px;
+      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+  .about, .projects, .otzyvy, .partners {
+      border: 1px solid;
+      border-radius: 50px;
+      border-color: #ffffff;
+      color: #ffffff;
+   
+    display: flex;
+    justify-content: center;
+      margin-top: 10px;
+  font-size: 20px;
+  text-decoration: none;
+      color: #ffffff;
+      position: absolute;
+  }
+  .about {
+      margin-left: -250px;
+      height: 40px;
+      width: 120px;
+      padding-top: 10px;
+  }
+  .about:hover, .projects:hover, .otzyvy:hover, .partners:hover {
+      color: #00D1B4;
+      border-color: #00D1B4;
+  }
+  .projects {
+      margin-left: -100px;
+      height: 40px;
+      width: 120px;
+      padding-top: 10px;
+  }
+  .otzyvy {
+      margin-left: 50px;
+      height: 40px;
+      width: 120px;
+      padding-top: 10px;
+  }
+  .partners {
+      margin-left: 200px;
+      height: 40px;
+      width: 120px;
+      padding-top: 10px;
+  }
+  header a {
+      
+  }
+  header button:hover {
+      border-color: #ffffff;
+      background-color: #ffffff;
+      color: #00D1B4;
+  }
+  header img {
+      height: 150px;
+      margin-top: -30px;
+      margin-left : -100px;
+  
+  }
+  .a {
+      display: flex;
+      justify-content: space-around;
+  }
+  header {
+      background-color: black;
+      height: 120px;
+  }

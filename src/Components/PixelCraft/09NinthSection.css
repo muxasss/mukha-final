@@ -1,0 +1,29 @@
+section.ninth-section {
+    background-color: #222828;
+    height: 730px;
+}
+
+.ninth-section-space {
+    display: flex;
+    justify-content: space-around;
+}
+.ninth-p {
+    margin-left: -200px;
+    margin-top: 20px;
+    color: #FFFFFF;
+    font-size: 19px;
+}
+section.ninth-section img {
+    height: 500px;
+    border-radius: 10px;
+}
+section.ninth-section h1 {
+    display: flex;
+    justify-content: center;
+    color: #ffffff;
+    font-size: 40px;
+    padding-top: 50px;
+}
+section.ninth-section p {
+    padding-left: -200px;
+}
