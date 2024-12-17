@@ -102,7 +102,7 @@ const PixelCraft = () => {
         </div>
         <div>
         <p className='fifth-ps'>.</p>
-        <p className='fifth-niks'>@vlad_zernytsky-</p>
+        <p className='fifth-niks-2'>@vlad_zernytsky-</p>
         
         </div>
         {/* <div>

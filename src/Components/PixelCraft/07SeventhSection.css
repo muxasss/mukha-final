@@ -3,6 +3,7 @@ section.seventh-section {
     background-color: #222828;
     display: flex;
     justify-content: center;
+    height: 900px;
 }
 .seventh-container {
     width: 100%;
@@ -36,6 +37,8 @@ summary {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    font-size: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 summary::after {
     content: '';
@@ -43,4 +46,9 @@ summary::after {
     height: 0;
     border-top: 10px solid #ffffff;
     border-inline: 7px solid transparent;
+}
+section.seventh-section p {
+    font-size: 20px;
+    margin-left: 40px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
