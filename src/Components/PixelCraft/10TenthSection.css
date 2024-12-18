@@ -1,34 +1,65 @@
-section.tenth-section {
-   height: 600px;
+@keyframes fadeInUp {
+    0% {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
 }
+
+@keyframes fadeInLeft {
+    0% {
+        opacity: 0;
+        transform: translateX(-30px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes fadeInRight {
+    0% {
+        opacity: 0;
+        transform: translateX(30px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+/* Общие стили */
+section.tenth-section {
+    height: 600px;
+}
+
 section.tenth-section h1 {
     color: #ffffff;
     display: flex;
     justify-content: center;
     font-size: 40px;
     margin-top: 100px;
- }
-
-.container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    color: #ffffff;
-    max-width: 1000px;
+    animation: fadeInUp 1.5s ease-out;
 }
+
+/* Контейнеры для документов */
 .tenth-container {
     display: grid;
-    grid-template-columns: repeat(3, 1fr); 
+    grid-template-columns: repeat(3, 1fr);
     gap: 20px;
     color: #ffffff;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 18px;
-    /* height: 300px; */
-    /* width: 200px; */
 }
-.ten-p {
-    margin-left: 100px;
+
+.tenth-container > div {
+    opacity: 0;
+    animation: fadeInUp 1.5s ease-out forwards;
 }
+
 .tenth-container-2 {
     background-color: #333F3F;
     height: 120px;
@@ -36,89 +67,9 @@ section.tenth-section h1 {
     margin-left: 100px;
     padding-top: 10px;
     padding-left: 10px;
+    animation-delay: 0.5s;
 }
-.tenth-1 {
-    position: absolute;
-    height: 10px;
-    width: 370px;
-    margin-left: -10px;
-    margin-top: -10px;
-    background-color: #00D1B4;
-}
-.tenth-2 {
-    position: absolute;
-    height: 10px;
-    width: 370px;
-    background-color: #00D1B4;
-    margin-top: -30px;
-}
-.tenth-3 {
-    position: absolute;
-    height: 10px;
-    width: 370px;
-    background-color: #00D1B4;
-    margin-top: -30px;
-}
-.tenth-4 {
-    position: absolute;
-    height: 10px;
-    width: 370px;
-    background-color: #00D1B4;
-    
-}
-.tenth-5 {
-    position: absolute;
-    height: 10px;
-    width: 370px;
-    background-color: #00D1B4;
-    margin-top: -10px;
-}
-.tenth-6 {
-    position: absolute;
-    height: 10px;
-    width: 370px;
-    background-color: #00D1B4;
-    margin-top: -30px;
-}
-section.tenth-section img {
-    height: 70px;
-}
-.papka-1 {
-    position: absolute;
-    margin-top: 20px;
-}
-.papka-2 {
-    position: absolute;
-    /* margin-top: 20px; */
-    margin-left: -280px;
-}
-.papka-3 {
-    position: absolute;
-    margin-left: -280px;
-}
-.papka-4 {
-    position: absolute;
-    margin-left: -280px;
-    margin-top: 30px;
-}
-.papka-5 {
-    position: absolute;
-    margin-left: -280px;
-    margin-top: 20px;
-}
-.papka-6 {
-    position: absolute;
-    margin-left: -280px;
-}
-.tenth-example {
-    margin-left: 50px;
-}
-.tenth-sxema {
-    margin-left: 50px;
-}
-.text-kvartal {
-    margin-left: 50px;
-}
+
 .tenth-container-3 {
     background-color: #333F3F;
     height: 100px;
@@ -127,7 +78,9 @@ section.tenth-section img {
     display: flex;
     justify-content: center;
     padding-top: 30px;
+    animation-delay: 1s;
 }
+
 .tenth-container-4 {
     background-color: #333F3F;
     height: 100px;
@@ -135,7 +88,9 @@ section.tenth-section img {
     display: flex;
     justify-content: center;
     padding-top: 30px;
+    animation-delay: 1.5s;
 }
+
 .tenth-container-5 {
     background-color: #333F3F;
     height: 130px;
@@ -143,7 +98,9 @@ section.tenth-section img {
     margin-left: 100px;
     display: flex;
     justify-content: center;
+    animation-delay: 2s;
 }
+
 .tenth-container-6 {
     background-color: #333F3F;
     height: 120px;
@@ -152,7 +109,9 @@ section.tenth-section img {
     display: flex;
     justify-content: center;
     padding-top: 10px;
+    animation-delay: 2.5s;
 }
+
 .tenth-container-7 {
     background-color: #333F3F;
     height: 100px;
@@ -160,4 +119,72 @@ section.tenth-section img {
     display: flex;
     justify-content: center;
     padding-top: 30px;
+    animation-delay: 3s;
+}
+
+/* Стили для иконок */
+section.tenth-section img {
+    height: 70px;
+    animation: fadeInLeft 1.5s ease-out;
+}
+
+.papka-1, .papka-2, .papka-3, .papka-4, .papka-5, .papka-6 {
+    position: absolute;
+    margin-top: 20px;
+    opacity: 0;
+    animation: fadeInLeft 1.5s ease-out forwards;
+}
+
+.papka-2 { margin-left: -280px; }
+.papka-3 { margin-left: -280px; }
+.papka-4 { margin-left: -280px; margin-top: 30px; }
+.papka-5 { margin-left: -280px; margin-top: 20px; }
+.papka-6 { margin-left: -280px; }
+
+.tenth-example, .tenth-sxema, .text-kvartal {
+    margin-left: 50px;
+    opacity: 0;
+    animation: fadeInRight 1.5s ease-out forwards;
+}
+
+/* Отдельные стили для заголовков */
+.ten-p {
+    margin-left: 100px;
+}
+
+.tenth-1, .tenth-2, .tenth-3, .tenth-4, .tenth-5, .tenth-6 {
+    position: absolute;
+    height: 10px;
+    width: 370px;
+    background-color: #00D1B4;
+}
+
+/* Отступы и выравнивание */
+.tenth-container-2, .tenth-container-3, .tenth-container-4, .tenth-container-5, .tenth-container-6, .tenth-container-7 {
+    opacity: 0;
+    animation: fadeInUp 1.5s ease-out forwards;
+}
+
+.tenth-container-2 {
+    animation-delay: 0.5s;
+}
+
+.tenth-container-3 {
+    animation-delay: 1s;
+}
+
+.tenth-container-4 {
+    animation-delay: 1.5s;
+}
+
+.tenth-container-5 {
+    animation-delay: 2s;
+}
+
+.tenth-container-6 {
+    animation-delay: 2.5s;
+}
+
+.tenth-container-7 {
+    animation-delay: 3s;
 }

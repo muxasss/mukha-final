@@ -1,50 +1,106 @@
+@keyframes fadeInUp {
+    0% {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes fadeInLeft {
+    0% {
+        opacity: 0;
+        transform: translateX(-50px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes fadeInRight {
+    0% {
+        opacity: 0;
+        transform: translateX(50px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+/* Применение анимаций */
+
 section.second-section {
     background: url('/public/second-section-photo.png');
-    
-}
-section.second-section {
-   
     color: #ffffff;
+    animation: fadeIn 2s ease-out;
 }
+
 section.second-section h1 {
     font-size: 50px;
     display: flex;
     justify-content: center;
     padding-top: 150px;
+    animation: fadeInUp 1.5s ease-out;
 }
 
 .second-texts {
     display: flex;
     justify-content: space-around;
+    animation: fadeIn 2s ease-out;
 }
+
 .second-p {
     margin-left: 370px;
     line-height: 10px;
     margin-top: 30px;
     font-size: 18px;
+    animation: fadeInUp 2s ease-out;
 }
+
 .second-p-2 {
     margin-left: 10px;
+    animation: fadeInUp 2.2s ease-out;
 }
+
 .second-p-3 {
     margin-left: 240px;
+    animation: fadeInUp 2.4s ease-out;
 }
+
 .second-p-4 {
     margin-left: 20px;
+    animation: fadeInUp 2.6s ease-out;
 }
+
 .second-border {
     background-color: #00D1B4;
     height: 5px;
     width: 570px;
     margin-left: 29%;
     margin-top: -10px;
+    animation: fadeInUp 2s ease-out;
 }
+
 .second-sums {
     display: flex;
     justify-content: space-around;
     color: black;
-    
+    animation: fadeIn 2s ease-out;
 }
+
 .second-border-2 {
     background-color: #333F3F;
     margin-top: 100px;
@@ -53,7 +109,9 @@ section.second-section h1 {
     height: 300px;
     width: 450px;
     border-radius: 10px;
+    animation: fadeInLeft 2s ease-out;
 }
+
 .second-border-3 {
     background-color: #333F3F;
     height: 300px;
@@ -62,30 +120,39 @@ section.second-section h1 {
     position: absolute;
     margin-left: 750px;
     margin-top: -200px;
+    animation: fadeInRight 2s ease-out;
 }
+
 .second-p-5 {
     position: absolute;
     margin-top: -200px;
     margin-left: 180px;
     font-size: 20.5px;
+    animation: fadeInUp 2s ease-out;
 }
+
 .second-p-6 {
     position: absolute;
     font-size: 20.5px;
     margin-left: 770px;
     margin-top: -200px;
+    animation: fadeInUp 2.2s ease-out;
 }
+
 .second-10 {
     position: absolute;
     margin-top: -270px;
     font-size: 90px;
     margin-left: 80px;
     color: #00D1B4;
+    animation: fadeInUp 2.4s ease-out;
 }
+
 .second-6 {
     position: absolute;
     color: #00D1B4;
     font-size: 90px;
     margin-left: -50px;
     margin-top: -340px;
+    animation: fadeInUp 2.6s ease-out;
 }

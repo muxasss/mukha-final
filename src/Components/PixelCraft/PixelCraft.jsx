@@ -313,7 +313,7 @@ const PixelCraft = () => {
         <section className='fifteen-section'>
             <video></video>
         </section>
-        <footer>
+        <footer id='contacty'>
             <h1>Свяжитесь с нами</h1>
             <p>Мы открыты к новым сотрудничествам!</p>
             <div className='footer-insta'>

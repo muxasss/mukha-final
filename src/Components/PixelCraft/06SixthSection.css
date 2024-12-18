@@ -1,26 +1,86 @@
+@keyframes fadeInUp {
+    0% {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes fadeInLeft {
+    0% {
+        opacity: 0;
+        transform: translateX(-50px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes fadeInRight {
+    0% {
+        opacity: 0;
+        transform: translateX(50px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+/* Применение анимаций */
+
 section.sixth-section {
+    animation: fadeInUp 2s ease-out;
     background-color: black;
-    height: 650px;
-    margin-top: -30px;
-}
-section.project-photos {
-    display: flex;
-    justify-content: space-around;
-
+    height: 600px;
+    margin-top: -100px;
 }
 
-section.sixth-section img {
-    height: 300px;
-    width: 400px;
-}
-.sixth-1, .sixth-2, .sixth-3 {
-    margin-left: 40px;
-    border-radius: 10px;
-}
 section.sixth-section h1 {
     color: #ffffff;
     display: flex;
     justify-content: center;
-    padding-top: 100px;
+    animation: fadeInUp 1.5s ease-out;
     font-size: 40px;
+    margin-top: 100px;
+    padding-top: 100px;
+}
+
+.project-photos {
+    display: flex;
+    justify-content: space-around;
+    animation: fadeInUp 2s ease-out;
+}
+
+.sixth-1, .sixth-2, .sixth-3 {
+    width: 300px;
+    height: 200px;
+    border-radius: 5px;
+    object-fit: cover;
+    animation: fadeInUp 2.5s ease-out;
+}
+
+.sixth-1 {
+    animation-delay: 0.5s;
+}
+
+.sixth-2 {
+    animation-delay: 1s;
+}
+
+.sixth-3 {
+    animation-delay: 1.5s;
 }

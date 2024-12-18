@@ -1,29 +1,99 @@
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes fadeInLeft {
+    0% {
+        opacity: 0;
+        transform: translateX(-50px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes fadeInRight {
+    0% {
+        opacity: 0;
+        transform: translateX(50px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+/* Секция "Бесплатная оценка проекта" */
+
 section.ninth-section {
     background-color: #222828;
     height: 730px;
+    animation: fadeIn 1.5s ease-out;
 }
 
-.ninth-section-space {
-    display: flex;
-    justify-content: space-around;
-}
-.ninth-p {
-    margin-left: -200px;
-    margin-top: 20px;
-    color: #FFFFFF;
-    font-size: 19px;
-}
-section.ninth-section img {
-    height: 500px;
-    border-radius: 10px;
-}
-section.ninth-section h1 {
+.ninth-section h1 {
     display: flex;
     justify-content: center;
     color: #ffffff;
     font-size: 40px;
     padding-top: 50px;
+    animation: fadeInUp 1.5s ease-out;
 }
+
+.ninth-section-space {
+    display: flex;
+    justify-content: space-around;
+    animation: fadeIn 2s ease-out;
+}
+
+section.ninth-section img {
+    height: 500px;
+    border-radius: 10px;
+    animation: fadeInLeft 1.5s ease-out;
+}
+
+.ninth-p {
+    margin-left: -200px;
+    margin-top: 20px;
+    color: #FFFFFF;
+    font-size: 19px;
+    animation: fadeInRight 2s ease-out;
+}
+
 section.ninth-section p {
     padding-left: -200px;
+}
+
+/* Анимация для текста */
+.ninth-p p {
+    opacity: 0;
+    animation: fadeInRight 1.5s ease-out forwards;
+}
+
+.ninth-p p:nth-child(1) {
+    animation-delay: 0.5s;
+}
+
+.ninth-p p:nth-child(2) {
+    animation-delay: 1s;
+}
+
+.ninth-p p:nth-child(3) {
+    animation-delay: 1.5s;
+}
+
+.ninth-p p:nth-child(4) {
+    animation-delay: 2s;
+}
+
+.ninth-p p:nth-child(5) {
+    animation-delay: 2.5s;
 }

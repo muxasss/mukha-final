@@ -1,23 +1,65 @@
+/* Анимация для заголовка */
+@keyframes fadeInUp {
+    0% {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Анимация для параграфа */
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+/* Анимация для изображения */
+@keyframes fadeInImage {
+    0% {
+        opacity: 0;
+        transform: translateY(50px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Применение анимации к элементам */
 section.first-section h1 {
     font-size: 47px;
+    animation: fadeInUp 1s ease-out;
 }
+
 section.first-section p {
     line-height: 24px;
     margin-left: -910px;
     color: #00D1B4;
+    animation: fadeIn 2s ease-out;
 }
+
 section.first-section img {
     height: 650px;
     margin-left: 396px;
     margin-top: -550px;
+    animation: fadeInImage 1.5s ease-out;
 }
+
 .first-section-text {
     margin-left: 50px;
     margin-top: 180px;
     color: #ffffff;
     line-height: 30px;
+    animation: fadeIn 2s ease-out;
 }
+
 .first-h1-2 {
     color: #00D1B4;
 }
-

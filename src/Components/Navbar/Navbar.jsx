@@ -12,7 +12,7 @@ const Navbar = () => {
             <a className='about' href='#about'>О нас</a>
             <a className='projects' href="#projects">Проекты</a>
             <a className='otzyvy' href="#otzyvy">Отзывы</a>
-            <a className='partners' href='#partners'>Партнеры</a>
+            <a className='partners' href='#contacty'>Контакты</a>
             </ul>
             <a href='https://t.me/pixelcraft_me' target='blank'><button>Обсудить проект</button></a>
             </div>
