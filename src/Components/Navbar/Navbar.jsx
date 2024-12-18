@@ -7,7 +7,7 @@ const Navbar = () => {
           <header>
             <nav>
             <div className='a'>
-            <img src='logo.png' />
+            <img src='logo.PNG' />
             <ul>
             <a className='about' href='#about'>О нас</a>
             <a className='projects' href="#projects">Проекты</a>
