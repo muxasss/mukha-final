@@ -258,7 +258,7 @@ const PixelCraft = () => {
                       <div className='eleventh-section-all'>
 
                     <div>
-                      {/* <img src='eleventh-section-icon.PNG' /> */}
+                      <img src='eleventh-section-icon.png' />
                     </div>
                     <div>
                     <h3>Опыт программирования 1.5 года</h3>
