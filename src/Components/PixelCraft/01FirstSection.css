@@ -1,4 +1,3 @@
-/* Анимация для заголовка */
 @keyframes fadeInUp {
     0% {
         opacity: 0;
@@ -62,4 +61,1032 @@ section.first-section img {
 
 .first-h1-2 {
     color: #00D1B4;
+}
+@keyframes fadeInUp {
+    0% {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes fadeInLeft {
+    0% {
+        opacity: 0;
+        transform: translateX(-50px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes fadeInRight {
+    0% {
+        opacity: 0;
+        transform: translateX(50px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+/* Применение анимаций */
+
+section.second-section {
+    background: url('/public/second-section-photo.png');
+    color: #ffffff;
+    animation: fadeIn 2s ease-out;
+}
+
+section.second-section h1 {
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    padding-top: 150px;
+    animation: fadeInUp 1.5s ease-out;
+}
+
+.second-texts {
+    display: flex;
+    justify-content: space-around;
+    animation: fadeIn 2s ease-out;
+}
+
+.second-p {
+    margin-left: 370px;
+    line-height: 10px;
+    margin-top: 30px;
+    font-size: 18px;
+    animation: fadeInUp 2s ease-out;
+}
+
+.second-p-2 {
+    margin-left: 10px;
+    animation: fadeInUp 2.2s ease-out;
+}
+
+.second-p-3 {
+    margin-left: 240px;
+    animation: fadeInUp 2.4s ease-out;
+}
+
+.second-p-4 {
+    margin-left: 20px;
+    animation: fadeInUp 2.6s ease-out;
+}
+
+.second-border {
+    background-color: #00D1B4;
+    height: 5px;
+    width: 570px;
+    margin-left: 29%;
+    margin-top: -10px;
+    animation: fadeInUp 2s ease-out;
+}
+
+.second-sums {
+    display: flex;
+    justify-content: space-around;
+    color: black;
+    animation: fadeIn 2s ease-out;
+}
+
+.second-border-2 {
+    background-color: #333F3F;
+    margin-top: 100px;
+    position: absolute;
+    margin-left: -600px;
+    height: 300px;
+    width: 450px;
+    border-radius: 10px;
+    animation: fadeInLeft 2s ease-out;
+}
+
+.second-border-3 {
+    background-color: #333F3F;
+    height: 300px;
+    width: 450px;
+    border-radius: 10px;
+    position: absolute;
+    margin-left: 750px;
+    margin-top: -200px;
+    animation: fadeInRight 2s ease-out;
+}
+
+.second-p-5 {
+    position: absolute;
+    margin-top: -200px;
+    margin-left: 180px;
+    font-size: 20.5px;
+    animation: fadeInUp 2s ease-out;
+}
+
+.second-p-6 {
+    position: absolute;
+    font-size: 20.5px;
+    margin-left: 770px;
+    margin-top: -200px;
+    animation: fadeInUp 2.2s ease-out;
+}
+
+.second-10 {
+    position: absolute;
+    margin-top: -270px;
+    font-size: 90px;
+    margin-left: 80px;
+    color: #00D1B4;
+    animation: fadeInUp 2.4s ease-out;
+}
+
+.second-6 {
+    position: absolute;
+    color: #00D1B4;
+    font-size: 90px;
+    margin-left: -50px;
+    margin-top: -340px;
+    animation: fadeInUp 2.6s ease-out;
+}
+section.third-section {
+    background-color: black;
+    height: 200px;
+    
+}section.fifth-section {
+    background-color: #222828;
+    height: 700px;
+    
+}
+.fifth-section-container {
+    display: flex;
+    justify-content: space-around;
+    
+}
+section.fifth-section h1 {
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+}
+.artem-otzyvy {
+    background-color: #333F3F;
+    width: 300px;
+    height: 300px;
+    width: 600px;
+    border-radius: 5px;
+    color: #ffffff;
+    font-size: 19px;
+    position: absolute;
+    margin-top: 500px;
+    margin-left: 20px;
+    /* padding-left: 50px; */
+}
+.avatar-1, .avatar-2, .freelance-1 {
+    position: absolute;
+    margin-top: 100px;
+}
+.avatar-1 {
+    margin-left: -160px;
+    margin-top:90px;
+}
+.avatar-2 {
+    margin-left: -60px;
+    margin-top: 90px;
+}
+.freelance-1 {
+    margin-left: -130px;
+    margin-top: 90px;
+}
+.vlad-otzyvy {
+    background-color: #333F3F;
+    width: 300px;
+    height: 250px;
+    width: 600px;
+    border-radius: 5px;
+    color: #ffffff;
+    font-size: 19px;
+    padding-left: 30px;
+    padding-top: 100px;
+   
+
+}
+section.fifth-section h1 {
+    padding-left: 580px;
+    font-size: 40px;
+    margin-top: 100px;
+}
+.stars, .stars-2, .stars-3, .stars-4, .stars-5 {
+    position: absolute;
+}
+.starts-1, .starts-2 {
+    display: flex;
+    justify-content: space-around;
+}
+.otzyvy-container-2 {
+    margin-top: 185px;
+    margin-left: -100px;
+    /* margin-top: 200px; */
+    
+}
+.fifth-ps {
+    color: #222828;
+}
+.otzyvy-all {
+    display: flex;
+    justify-content: space-around;
+    
+}
+.fifth-niks {
+    color: #ffffff;
+    position: absolute;
+    margin-top: 50px;
+    margin-left: -450px;
+    font-size: 20px;
+
+}
+.fifth-niks-2 {
+    color: #ffffff;
+    position: absolute;
+    margin-top: 50px;
+    margin-left: -280px;
+    font-size: 20px;
+}
+.stars {
+    height: 30px;
+}@keyframes fadeInUp {
+    0% {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes fadeInLeft {
+    0% {
+        opacity: 0;
+        transform: translateX(-50px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes fadeInRight {
+    0% {
+        opacity: 0;
+        transform: translateX(50px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+/* Применение анимаций */
+
+section.sixth-section {
+    animation: fadeInUp 2s ease-out;
+    background-color: black;
+    height: 600px;
+    margin-top: -100px;
+}
+
+section.sixth-section h1 {
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    animation: fadeInUp 1.5s ease-out;
+    font-size: 40px;
+    margin-top: 100px;
+    padding-top: 100px;
+}
+
+.project-photos {
+    display: flex;
+    justify-content: space-around;
+    animation: fadeInUp 2s ease-out;
+}
+
+.sixth-1, .sixth-2, .sixth-3 {
+    width: 300px;
+    height: 200px;
+    border-radius: 5px;
+    object-fit: cover;
+    animation: fadeInUp 2.5s ease-out;
+}
+
+.sixth-1 {
+    animation-delay: 0.5s;
+}
+
+.sixth-2 {
+    animation-delay: 1s;
+}
+
+.sixth-3 {
+    animation-delay: 1.5s;
+}
+@keyframes fadeInUp {
+    0% {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes fadeInLeft {
+    0% {
+        opacity: 0;
+        transform: translateX(-50px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes fadeInRight {
+    0% {
+        opacity: 0;
+        transform: translateX(50px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+/* Секция с вопросами */
+
+section.seventh-section {
+    color: #ffffff;
+    background-color: #222828;
+    display: flex;
+    justify-content: center;
+    height: 900px;
+}
+
+.seventh-container {
+    width: 100%;
+    min-height: 100vh;
+    background: #222828;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 1.5rem;
+    animation: fadeInUp 2s ease-out;
+}
+
+section.seventh-section h1 {
+    padding-top: 50px;
+    font-size: 40px;
+    animation: fadeInUp 1.5s ease-out;
+}
+
+details {
+    background-color: #333F3F;
+    width: 70%;
+    border-radius: 0.5rem;
+    animation: fadeInUp 2s ease-out;
+}
+
+summary {
+    padding: 2rem 1.5rem;
+    font-weight: 800;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    animation: fadeInUp 2s ease-out;
+}
+
+summary::after {
+    content: '';
+    width: 0;
+    height: 0;
+    border-top: 10px solid #ffffff;
+    border-inline: 7px solid transparent;
+}
+
+section.seventh-section p {
+    font-size: 20px;
+    margin-left: 40px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/* Анимация для раскрывающихся блоков */
+details p {
+    opacity: 0;
+    animation: fadeInUp 2s ease-out forwards;
+}
+
+details[open] p {
+    animation: fadeInUp 1s ease-out forwards;
+}
+
+details:nth-child(1) {
+    animation-delay: 0.5s;
+}
+
+details:nth-child(2) {
+    animation-delay: 1s;
+}
+
+details:nth-child(3) {
+    animation-delay: 1.5s;
+}
+
+details:nth-child(4) {
+    animation-delay: 2s;
+}
+
+details:nth-child(5) {
+    animation-delay: 2.5s;
+}
+section.eights-section {
+    color: #ffffff;
+    display: flex;
+    flex-direction: column; /* Устанавливаем элементы по вертикали */
+    align-items: center;    /* Центрируем элементы по горизонтали */
+}
+
+section.eights-section img {
+    height: 416px;
+    position: relative;  /* Меняем фиксированное позиционирование на относительное */
+    margin-top: 20px;    /* Добавляем отступ сверху для изображения */
+}@keyframes fadeIn {
+    0% {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes fadeInLeft {
+    0% {
+        opacity: 0;
+        transform: translateX(-50px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes fadeInRight {
+    0% {
+        opacity: 0;
+        transform: translateX(50px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+/* Секция "Бесплатная оценка проекта" */
+
+section.ninth-section {
+    background-color: #222828;
+    height: 730px;
+    animation: fadeIn 1.5s ease-out;
+}
+
+.ninth-section h1 {
+    display: flex;
+    justify-content: center;
+    color: #ffffff;
+    font-size: 40px;
+    padding-top: 50px;
+    animation: fadeInUp 1.5s ease-out;
+}
+
+.ninth-section-space {
+    display: flex;
+    justify-content: space-around;
+    animation: fadeIn 2s ease-out;
+}
+
+section.ninth-section img {
+    height: 500px;
+    border-radius: 10px;
+    animation: fadeInLeft 1.5s ease-out;
+}
+
+.ninth-p {
+    margin-left: -200px;
+    margin-top: 20px;
+    color: #FFFFFF;
+    font-size: 19px;
+    animation: fadeInRight 2s ease-out;
+}
+
+section.ninth-section p {
+    padding-left: -200px;
+}
+
+/* Анимация для текста */
+.ninth-p p {
+    opacity: 0;
+    animation: fadeInRight 1.5s ease-out forwards;
+}
+
+.ninth-p p:nth-child(1) {
+    animation-delay: 0.5s;
+}
+
+.ninth-p p:nth-child(2) {
+    animation-delay: 1s;
+}
+
+.ninth-p p:nth-child(3) {
+    animation-delay: 1.5s;
+}
+
+.ninth-p p:nth-child(4) {
+    animation-delay: 2s;
+}
+
+.ninth-p p:nth-child(5) {
+    animation-delay: 2.5s;
+}
+@keyframes fadeInUp {
+    0% {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes fadeInLeft {
+    0% {
+        opacity: 0;
+        transform: translateX(-30px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes fadeInRight {
+    0% {
+        opacity: 0;
+        transform: translateX(30px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+/* Общие стили */
+section.tenth-section {
+    height: 600px;
+}
+
+section.tenth-section h1 {
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    margin-top: 100px;
+    animation: fadeInUp 1.5s ease-out;
+}
+
+/* Контейнеры для документов */
+.tenth-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    color: #ffffff;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+}
+
+.tenth-container > div {
+    opacity: 0;
+    animation: fadeInUp 1.5s ease-out forwards;
+}
+
+.tenth-container-2 {
+    background-color: #333F3F;
+    height: 120px;
+    width: 360px;
+    margin-left: 100px;
+    padding-top: 10px;
+    padding-left: 10px;
+    animation-delay: 0.5s;
+}
+
+.tenth-container-3 {
+    background-color: #333F3F;
+    height: 100px;
+    width: 370px;
+    margin-left: 25px;
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+    animation-delay: 1s;
+}
+
+.tenth-container-4 {
+    background-color: #333F3F;
+    height: 100px;
+    width: 370px;
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+    animation-delay: 1.5s;
+}
+
+.tenth-container-5 {
+    background-color: #333F3F;
+    height: 130px;
+    width: 370px;
+    margin-left: 100px;
+    display: flex;
+    justify-content: center;
+    animation-delay: 2s;
+}
+
+.tenth-container-6 {
+    background-color: #333F3F;
+    height: 120px;
+    width: 370px;
+    margin-left: 25px;
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    animation-delay: 2.5s;
+}
+
+.tenth-container-7 {
+    background-color: #333F3F;
+    height: 100px;
+    width: 370px;
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+    animation-delay: 3s;
+}
+
+/* Стили для иконок */
+section.tenth-section img {
+    height: 70px;
+    animation: fadeInLeft 1.5s ease-out;
+}
+
+.papka-1, .papka-2, .papka-3, .papka-4, .papka-5, .papka-6 {
+    position: absolute;
+    margin-top: 20px;
+    opacity: 0;
+    animation: fadeInLeft 1.5s ease-out forwards;
+}
+
+.papka-2 { margin-left: -280px; }
+.papka-3 { margin-left: -280px; }
+.papka-4 { margin-left: -280px; margin-top: 30px; }
+.papka-5 { margin-left: -280px; margin-top: 20px; }
+.papka-6 { margin-left: -280px; }
+
+.tenth-example, .tenth-sxema, .text-kvartal {
+    margin-left: 50px;
+    opacity: 0;
+    animation: fadeInRight 1.5s ease-out forwards;
+}
+
+/* Отдельные стили для заголовков */
+.ten-p {
+    margin-left: 100px;
+}
+
+.tenth-1, .tenth-2, .tenth-3, .tenth-4, .tenth-5, .tenth-6 {
+    position: absolute;
+    height: 10px;
+    width: 370px;
+    background-color: #00D1B4;
+}
+
+/* Отступы и выравнивание */
+.tenth-container-2, .tenth-container-3, .tenth-container-4, .tenth-container-5, .tenth-container-6, .tenth-container-7 {
+    opacity: 0;
+    animation: fadeInUp 1.5s ease-out forwards;
+}
+
+.tenth-container-2 {
+    animation-delay: 0.5s;
+}
+
+.tenth-container-3 {
+    animation-delay: 1s;
+}
+
+.tenth-container-4 {
+    animation-delay: 1.5s;
+}
+
+.tenth-container-5 {
+    animation-delay: 2s;
+}
+
+.tenth-container-6 {
+    animation-delay: 2.5s;
+}
+
+.tenth-container-7 {
+    animation-delay: 3s;
+}
+@keyframes fadeInUp {
+    0% {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes fadeInLeft {
+    0% {
+        opacity: 0;
+        transform: translateX(-30px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes fadeInRight {
+    0% {
+        opacity: 0;
+        transform: translateX(30px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+section.eleventh-section {
+    background-color: #222828;
+    color: #ffffff;
+    height: 1100px;
+    padding-bottom: 50px;
+}
+
+section.eleventh-section h1 {
+    display: flex;
+    justify-content: center;
+    font-size: 45px;
+    padding-top: 50px;
+    animation: fadeInUp 1.5s ease-out;
+}
+
+.eleventh-section-photo {
+    height: 550px;
+    margin-left: 150px;
+    opacity: 0;
+    animation: fadeInLeft 1.5s ease-out forwards;
+}
+
+.container-eleventh {
+    display: flex;
+    justify-content: space-around;
+}
+
+.right-section {
+    opacity: 0;
+    animation: fadeInUp 1.5s ease-out forwards;
+}
+
+.portfolio-eleventh {
+    display: flex;
+    width: 100%;
+    opacity: 0;
+    animation: fadeInUp 1.5s ease-out forwards;
+    animation-delay: 0.5s;
+}
+
+.eleventh-section--first-icons {
+    margin-left: -70px;
+    margin-top: -100px;
+    opacity: 0;
+    animation: fadeInUp 1.5s ease-out forwards;
+    animation-delay: 1s;
+}
+
+.eleventh-section-all {
+    display: flex;
+}
+
+.eleventh-section-all div {
+    margin-right: 20px;
+}
+
+section.eleventh-section h2, h3 {
+    color: #00D1B4;
+}
+
+.eleventh-section-portfolio {
+    height: 450px;
+    margin-top: -140px;
+    margin-left: -130px;
+    opacity: 0;
+    animation: fadeInLeft 1.5s ease-out forwards;
+    animation-delay: 1.5s;
+}
+
+.eleventh-section-photo, .eleventh-section-portfolio {
+    opacity: 0;
+    animation: fadeInLeft 1.5s ease-out forwards;
+}
+
+section.eleventh-section p {
+    font-size: 15px;
+    opacity: 0;
+    animation: fadeInUp 1.5s ease-out forwards;
+    animation-delay: 2s;
+}
+
+.eleventh-section-photo, .portfolio-eleventh h2, .portfolio-eleventh p {
+    opacity: 0;
+    animation: fadeInUp 1.5s ease-out forwards;
+}
+
+.eleventh-section-photo {
+    margin-left: 150px;
+}
+
+/* Для подзаголовков и текста */
+section.eleventh-section h2, h3 {
+    color: #00D1B4;
+    opacity: 0;
+    animation: fadeInUp 1.5s ease-out forwards;
+    animation-delay: 2s;
+}
+
+.eleventh-section--first-icons div h3,
+.eleventh-section--first-icons div p {
+    animation: fadeInUp 1.5s ease-out forwards;
+    opacity: 0;
+    animation-delay: 3s;
+}
+section.twelve-section {
+    background-color: black;
+    color: #ffffff;
+}section.thirteen-section {
+    background-color: #222828;
+}section.forteen-section h1 {
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    margin-top: 300px;
+    font-size: 40px;
+}
+.forteen-section button {
+    border: 1px solid;
+      border-radius: 50px;
+      border-color: #022427;
+      color: #ffffff;
+      background-color: #05565d;
+    display: flex;
+    justify-content: center;
+    height: 55px;
+    width: 250px;
+    margin-left: 540px;
+      margin-top: 10px;
+  font-size: 20px;
+  padding-top: 13px;
+  text-decoration: none;
+}
+.forteen-section button:hover {
+    border-color: #022427;
+      color: #022427;
+      background-color: #ffffff;
+      
+}
+
+
+
+
+
+
+
+footer {
+    display: flex;
+    justify-content: center;
+    color: #ffffff;
+    background-color: #222828;
+    height: 200px;
+}
+footer h1 {
+    margin-left: 00px;
+    padding-top: 50px;
+}
+footer p {
+  font-size: 24px;
+  margin-left: 300px;
+  padding-top: 55px;
+  color: #00D1B4;
+}
+.footer-insta, .footer-telega {
+  color: #00D1B4;
+  margin-left: 30px;
+  margin-top: 41px;
+  font-size: 30px;
+}
+.footer-insta:hover, .footer-telega:hover {
+  color: #ffffff;
+} 
+
+:root {
+    --main-bg-color: #222828;
+    --secondary-bg-color: #333F3F;
+    --accent-color: #00D1B4;
+    --text-color: #ffffff;
+}
+
+/* Общие стили */
+
+
+/* Адаптивные стили */
+@media (max-width: 1200px) {
+    h1 {
+        font-size: 1.8em;
+    }
+
+    header {
+        padding: 15px;
+    }
+}
+
+@media (max-width: 768px) {
+    h1 {
+        font-size: 1.5em;
+    }
+
+    header {
+        padding: 10px;
+    }
+}
+
+@media (max-width: 480px) {
+    h1 {
+        font-size: 1.2em;
+    }
+
+    body {
+        font-size: 14px;
+    }
+
+    header {
+        padding: 5px;
+    }
 }
